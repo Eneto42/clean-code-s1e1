@@ -5,30 +5,30 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.eis-matrix {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.eis-matrix img {
+.header img {
   width: 100%;
 }
 
-.eis-matrix .more-inf {
+.header .header__info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .eis-matrix {
+  .header {
     text-align: center;
   }
 
 }
 
-.main-page {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -40,7 +40,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.main__add-task {
     display: flex;
 }
 
@@ -152,7 +152,7 @@ li > input[type="text"] {
 }
 
 /* Completed */
-#completed-tasks label {
+#main__complete label {
   text-decoration: line-through;
   color: #888;
 }
